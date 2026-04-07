@@ -1,4 +1,4 @@
-FROM infiniflow/ragflow:v0.23.1
+FROM infiniflow/ragflow:latest
 
 COPY docker/nginx/ragflow.conf /etc/nginx/conf.d/ragflow.conf
 COPY docker/nginx/proxy.conf /etc/nginx/proxy.conf
